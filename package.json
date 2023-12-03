@@ -1,0 +1,21 @@
+{
+  "name": "ruc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "build": "rimraf ./build && tsc",
+  "dependencies": {
+    "pkg": "^5.8.1"
+  }
+}
